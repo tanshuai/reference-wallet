@@ -1,0 +1,120 @@
+{
+  "schema_version": 1,
+  "repository": "tanshuai/reference-wallet",
+  "repository_id": 383070939,
+  "date": "2026-10-03",
+  "source_sha": "e8efec4acc6af6e319cf075c10693ddf7754cc83",
+  "entries": [
+    {
+      "original_path": ".github/workflows/ci.yaml",
+      "archived_path": "archive/github-actions/2026-10-03/.github/workflows/ci.yaml",
+      "source_blob_sha": "ea17aeccd9b280237ac7c330f329ef261623d138",
+      "sha256": "552607fe654a4fa0b0d996834059dd7ca5ec29f284c1f37c208b07feb18f0350",
+      "workflow_id": 21010627,
+      "workflow_state_before": "active",
+      "business_consumer": "Inherited upstream-only automation from diem/reference-wallet",
+      "retirement_reason": "No current custom development/deployment consumer identified; owner-approved archival of inherited fork automation; preserve source and passive security alerts",
+      "config_finding_ids": [
+        "CFG-006"
+      ],
+      "secret_names": [],
+      "external_entrypoint_types": [],
+      "local_dependency_paths": [
+        "scripts/compile_frontend.sh",
+        "scripts/lrw.sh"
+      ],
+      "restore": "Restore archived YAML and the listed dependency snapshots in a reviewed PR; validate runtime/action versions, consumers and write destinations before explicitly re-enabling the original workflow ID."
+    },
+    {
+      "original_path": ".github/workflows/dmw_test.yaml",
+      "archived_path": "archive/github-actions/2026-10-03/.github/workflows/dmw_test.yaml",
+      "source_blob_sha": "e66addbb4e9409accbf505c1aa8bf505083b7bbe",
+      "sha256": "07c698c05652b396bc967182c3f7efbf300d9f626e390dcd48b3d8c6fa61a2e1",
+      "workflow_id": 21010628,
+      "workflow_state_before": "active",
+      "business_consumer": "Inherited upstream-only automation from diem/reference-wallet",
+      "retirement_reason": "No current custom development/deployment consumer identified; owner-approved archival of inherited fork automation; preserve source and passive security alerts",
+      "config_finding_ids": [
+        "CFG-001",
+        "CFG-006"
+      ],
+      "secret_names": [],
+      "external_entrypoint_types": [],
+      "local_dependency_paths": [
+        "scripts/lrw.sh",
+        "scripts/run_dmw_test.sh"
+      ],
+      "restore": "Restore archived YAML and the listed dependency snapshots in a reviewed PR; validate runtime/action versions, consumers and write destinations before explicitly re-enabling the original workflow ID."
+    },
+    {
+      "original_path": ".github/workflows/e2e.yaml",
+      "archived_path": "archive/github-actions/2026-10-03/.github/workflows/e2e.yaml",
+      "source_blob_sha": "1c8ea083358effd89a37b52f2396482e4b558351",
+      "sha256": "1513a614deaa3960c5eb727a258a7c721bc83eb55529d4b34f757680bc8f926e",
+      "workflow_id": 21010629,
+      "workflow_state_before": "active",
+      "business_consumer": "Inherited upstream-only automation from diem/reference-wallet",
+      "retirement_reason": "No current custom development/deployment consumer identified; owner-approved archival of inherited fork automation; preserve source and passive security alerts",
+      "config_finding_ids": [
+        "CFG-006",
+        "CFG-008"
+      ],
+      "secret_names": [
+        "KILL_SWITCH_E2E_TEST"
+      ],
+      "external_entrypoint_types": [],
+      "local_dependency_paths": [],
+      "restore": "Restore archived YAML and the listed dependency snapshots in a reviewed PR; validate runtime/action versions, consumers and write destinations before explicitly re-enabling the original workflow ID."
+    }
+  ],
+  "code_and_dependency_snapshots": [
+    {
+      "original_path": "Makefile",
+      "archived_path": "archive/github-actions/2026-10-03/Makefile",
+      "source_blob_sha": "4be08de419c65b20d3cb14bdf001cbae6a258c49",
+      "sha256": "ab53591ad57ad0ba018fd85317d0f9ad7572195b743890b646471c9ceaa9b3e8",
+      "original_retained": true,
+      "reason": "workflow-local/direct code or dependency configuration copied for recovery; shared source left in place"
+    },
+    {
+      "original_path": "scripts/compile_frontend.sh",
+      "archived_path": "archive/github-actions/2026-10-03/scripts/compile_frontend.sh",
+      "source_blob_sha": "efc220614ea48d7bf280d109d6adaad8d26bd939",
+      "sha256": "0a0e2b15ab4a294b3f10c2213a28cf9f27835a18eb0266c7bbc9604258059a30",
+      "original_retained": true,
+      "reason": "workflow-local/direct code or dependency configuration copied for recovery; shared source left in place"
+    },
+    {
+      "original_path": "scripts/lrw.sh",
+      "archived_path": "archive/github-actions/2026-10-03/scripts/lrw.sh",
+      "source_blob_sha": "122a15c5469c3a4945cd1a424e48cc5131db494e",
+      "sha256": "bfc0e399920ac39030bc98674e99e123dde8ad5d9df07ccd4f489c8a45ed01da",
+      "original_retained": true,
+      "reason": "workflow-local/direct code or dependency configuration copied for recovery; shared source left in place"
+    },
+    {
+      "original_path": "scripts/run_dmw_test.sh",
+      "archived_path": "archive/github-actions/2026-10-03/scripts/run_dmw_test.sh",
+      "source_blob_sha": "aafe7a1367279952cc550f4c0aad667334582415",
+      "sha256": "deb22aaeafd1fc5cb06fdbe98bc3784bf43ca2ed06a1542ececa93c11bb46ce3",
+      "original_retained": true,
+      "reason": "workflow-local/direct code or dependency configuration copied for recovery; shared source left in place"
+    }
+  ],
+  "upstream_preflight": {
+    "parent": "diem/reference-wallet",
+    "source_sha": "e8efec4acc6af6e319cf075c10693ddf7754cc83",
+    "ahead_by": 0,
+    "behind_by": 0,
+    "status": "identical",
+    "retained_runs": 0,
+    "semantic_note": "Current entrypoints reviewed individually; only inherited upstream CI/tests/releases/doc generators, no custom fork commits or live production consumer identified. No repository Actions enabling or passive alert changes."
+  },
+  "caller_check": {
+    "current_all_accessible_workflows": 286,
+    "remaining_reusable_callers": [],
+    "external_dispatch_note": "Declared dispatch/manual entrypoints recorded; entire retired source preserved. No dispatch APIs were invoked."
+  },
+  "passive_security_alerts": "No alert setting changed. Archived version-update YAML is no longer active configuration.",
+  "rollback": "Reviewed source restoration plus explicit workflow enablement; for unsafe cross-repository publishers establish an updated producer/consumer contract and guarded destination before restoring."
+}
